@@ -43,25 +43,18 @@
             <p>made by <a href="https://codepen.io/juliepark"> julie</a> ♡
           </footer>
           <script>
-            const year = new Date().getFullYear();
-            const thirdOfJuny = new Date(year, 5,3,17,30).getTime();
-
+            const thirdOfJuny = new Date(`June 03, 2022 17:30:00`).getTime();
             // countdown
             let timer = setInterval(function() {
-
             // get today's date
             const today = new Date().getTime();
-
             // get the difference
             let diff = thirdOfJuny - today;
-
-
             // math
             let days = Math.floor(diff / (1000 * 60 * 60 * 24));
             let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             let seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
             // display
             document.getElementById("timer").innerHTML =
                 "<div class=\"days\"> \
