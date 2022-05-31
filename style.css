@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
-
-$star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   
 html {
   display: grid;
@@ -184,8 +182,8 @@ h1 {
   width: 20px;
   height: 20px;
   background: #F6F4F3;
-  -webkit-clip-path: $star;
-  clip-path: $star;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
 .star-red {
@@ -194,8 +192,8 @@ h1 {
   margin-left: 51px;
   margin-top: -5px;
   background: #EF2F3C;
-  -webkit-clip-path: $star;
-  clip-path: $star;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
 footer {
